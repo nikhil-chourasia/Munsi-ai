@@ -1,26 +1,320 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  margin: 0;
+  padding: 0;
+}
+/*******/
+.hero-section
+{
+  display: flex;
+  margin-left: 11vw;
+  margin-right: 11vw;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+
+
+
+/*******/
+
+
+.sectionA
+{
+  width: 50vw;
+}
+.navbar-container
+{
+  display: flex;
+  height: 7vw;
+  border-bottom: 1.5px solid rgb(158, 158, 158);
+  background-color: white;
+    font-size: 1.2vw;
+
+  color: rgb(89, 92, 90);
+  margin-bottom: 1.5px;
+}
+.navbar-container .logo-container
+{
+  display: flex;
+  align-items: center;
+  width: 50vw;
+}
+.navbar-container .logo-container .logo
+{
+  background: url(logo.png);
+  height: 8vw;
+  width: 8vw;
+  background-size: cover;
+
+}
+.navbar-container .navigation-icons
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 3.5vw;
+  width:50vw ;
+}
+.navbar-container .navigation-icons .get-notified
+{
+  height: 4vw;
+  width:10vw ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #8133FF,  #48B1F8);
+  color: white;
+  border-radius: 35px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* main content of the page */
+
+.sectionA
+{
+  margin-top: 80px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.launching-soon-container
+{
+    height:3.5vw ;
+
+  width: 11vw;
+  background-color: #d8c8ee;
+  display: flex;
+    align-items: center;
+    justify-content: center;  
+  gap: 5px;
+  border-radius: 30px;
+
+}
+
+.launching-soon-container .spark
+{
+  background: url(star\ \(1\).png);
+  background-size: cover;
+  height: 1.3vw;
+  width: 1.3vw;
+  
+}
+.launching-soon-container .text
+{
+  font-size: 1.1vw;
+  color: #8b2cf5;
+}
+
+
+.coming-soon-text
+{
+    font-size: 4vw;
+    font-style: bold;
+    font-weight: 700;
+    background: linear-gradient(to right, #8133FF, #48B1F8, #8133FF);
+    background-clip: text;
+    color: transparent;
+}
+
+.work-track-grow
+{
+  font-size: 2vw;
+  font-weight: 600;
+}
+.description
+{
+  color: #6b6b7b;
+  font-size: 1.3vw;
+  margin-bottom: 1vw;
+}
+
+.CTA
+{
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+.CTA .learn-more-button
+{
+    height: 3.7vw;
+
+  width:11vw ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #8133FF,  #48B1F8);
+  color: white;
+  border-radius: 35px;
+  gap: 10px;
+}
+.CTA .learn-more-button .text
+{
+    font-size: 1.2vw;
+
+}
+.CTA .learn-more-button .downarrow
+{
+  height:1.2vw;
+  width:1.2vw;
+  background: url(down-arrow.png);
+  background-size: cover;
+}
+
+.CTA .early-access
+{
+  height: 3.7vw;
+  width: 11vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8b2cf5;
+  border: 2px solid #8b2cf5;
+  border-radius: 35px;
+      font-size: 1.2vw;
+
+}
+
+
+
+.minidetails
+{
+ display: flex;
+ margin-top: 20px;
+ gap: 50px;
+;
+}
+
+.minidetails .minidetails-1
+{
+  
+   border-right: 2px solid  #6b6b7b;
+   width: 200px;
+}
+
+.minidetails .minidetails-1 .main-text-1
+{
+  color: #7613f6;
+    font-size: 1.7vw;
+  font-weight: 500;
+  
+}
+
+.minidetails .minidetails-1 .sub-text-1
+{
+ color: #6b6b7b;
+ font-size: 1.1vw;
+}
+
+.minidetails .minidetails-2
+{
+  
+   border-right: 2px solid  #6b6b7b;
+      width: 100px;
+
+
+}
+
+
+.minidetails .minidetails-2 .main-text-2
+{
+  color: #39bff4;
+    font-size: 1.7vw;
+
+  font-weight: 500;
+}
+
+.minidetails .minidetails-2 .sub-text-2
+{
+  color: #6b6b7b;
+   font-size: 1.1vw;
+
+}
+
+.minidetails .minidetails-3
+{
+  height: 60px;
+  width: 200px;
+  
+}
+
+
+.minidetails .minidetails-3 .main-text-3
+{
+  color: #f65e2f;
+    font-size: 1.7vw;
+  font-weight: 500;
+}
+
+.minidetails .minidetails-3 .sub-text-3
+{ 
+
+  color: #6b6b7b;
+   font-size: 1.1vw;
+
+
+}
+
+
+
+/***section B of the page*****/
+.sectionB
+{
+  width: 50vw;
+    margin-top: 50px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+}
+
+
+.B-container .img-1-container
+{
+  display: flex;
+}
+.B-container .img-1-container .img-1
+{
+  height: 7.708vw;
+  width: 15.104vw;
+  background-image: url(Feature\ card\ 1.png);
+  background-size: cover;
+  border-radius: 60px;
+    overflow: hidden;
+
+  scale: 0.9;
+  box-shadow: 20px 20px 100px #705fe0;
+  
+}
+.B-container .img-2-container
+{
+  display: flex;
+  justify-content: center;
+}
+.B-container .img-2-container .img-2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13.854vw;
+  width:16.615vw;
+  background-image: url(Feature\ card\ 2.png);
+  background-size: cover;
+    border-radius: 60px;
+
+    scale: 0.9;
+  box-shadow: 20px 20px 100px #705fe0;
+
+}
+.B-container .img-3-container
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.B-container .img-3-container .img-3
+{
+  height: 7.708vw;
+  width: 15.104vw;
+  background-image: url(Feature\ Card\ 3.png);
+  background-size: cover;
+    border-radius: 60px;
+  box-shadow: 20px 20px 100px #705fe0;
+
+    scale: 0.9;
+
 }
