@@ -318,3 +318,189 @@
     scale: 0.9;
 
 }
+
+
+
+/**********2nd part of the page ******/
+/*****section c*******/
+
+.hero-section-2
+{
+  display: flex;
+ margin-left: 11vw;
+ margin-top: 100px;
+ margin-bottom: 100px;
+  
+}
+
+
+/*******/
+
+.section-c
+{ 
+  width: 50vw;
+  margin-top: 170px;
+
+}
+
+.section-c .about-munsi-ai
+{
+  height: 2.292vw;
+  width: 9.751vw;
+  background-color: #c2e6f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  font-size: 1.0vw;
+  color: #02b5fc;
+  font-weight: 500;
+}
+
+.section-c .your-ai
+{
+  margin-top: 10px;
+    font-size: 4vw;
+    font-weight: 650;
+    
+}
+
+.section-c .BC
+{
+  margin-top:-1.563vw;
+    font-size: 4vw;
+    font-weight: 650;
+  background: linear-gradient(to right, #8133FF, #48B1F8, #8133FF);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.section-c .description-1
+{
+  color: #6B6B7B;
+  font-size: 1.3vw;
+  
+}
+
+.section-c .description-2
+{
+  color: #6B6B7B;
+  font-size: 1.3vw;
+  margin-top: 20px;
+}
+
+.section-c .efficiency-part-container
+{
+  margin-top: 2.604vw;
+}
+
+.section-c .efficiency-part-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.813vw;
+  text-align: center;
+}
+
+.section-c .efficiency-part-container .faster-insite .main-1 
+{
+ color: #7613f6;
+    font-size: 2.1vw;
+  font-weight: 600;
+}
+
+.section-c .efficiency-part-container .faster-insite .sub-1 
+{
+  font-size: 1vw;
+  color: #6b6b7b;
+    margin-top: -0.521vw;
+
+}
+
+.section-c .efficiency-part-container .time-saved .main-2 
+{
+color: #39bff4;
+    font-size: 2.1vw;
+  font-weight: 600;
+}
+
+.section-c .efficiency-part-container .time-saved .sub-2
+{
+  font-size: 1vw;
+  margin-top: -0.521vw;
+  color: #6b6b7b;
+}
+
+.section-c .efficiency-part-container .automated .main-3
+{
+  color: #f65e2f;
+    font-size: 2.1vw;
+  font-weight: 600;
+}
+
+.section-c .efficiency-part-container .automated .sub-3
+{
+  font-size: 1vw;
+  margin-top: -0.521vw;
+  color: #6b6b7b;
+}
+
+.section-d
+{
+    width: 50vw;
+    margin-top: 140px;
+    scale: 0.89;
+  
+}
+
+.section-d .img-1d-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-d .img-1d
+{
+  
+  height:11.298vw ;
+  width:33.772vw ;
+  background: url(Feature\ Card\ 1\ \(2\).png);
+  background-size: cover;
+}
+
+.section-d .img-2d-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-d .img-2d
+{
+  
+  margin-top: 20px;
+    height:11.298vw ;
+  width:33.772vw ;
+  background: url(Feature\ Card\ 2\ \(1\).png);
+  background-size: cover;
+}
+
+.section-d .img-3d-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-d .img-3d
+{
+  
+  margin-top: 20px;
+    height:11.298vw ;
+  width:33.772vw ;
+  background: url(Feature\ Card\ 3\ \(1\).png);
+  background-size: cover;
+}

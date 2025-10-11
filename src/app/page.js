@@ -71,8 +71,54 @@ export default function Home() {
           </div>
         </div>
     </div>
-
 </div>
+
+
+
+<div className="hero-section-2">
+
+    <div className="section-c">
+      <div className="about-munsi-ai">About Munsi AI</div>
+      <div className="your-ai">Your AI-Powered</div>
+      <div className="BC">Business Companion</div>
+      <div className="description-1">Munsi AI transforms complex business data into actionable insights. Built specifically for small and medium businesses, we eliminate the technical barriers that make traditional analytics tools overwhelming.
+</div>
+      <div className="description-2">Our AI-driven platform provides real-time analysis, anomaly detection, and predictive insights—all through an intuitive interface designed for business owners, not data scientists.</div>
+     
+        <div className="efficiency-part-container">
+          <div className="faster-insite">
+            <div className="main-1">10x</div>
+            <div className="sub-1">Faster Insites</div>
+          </div>
+          <div className="time-saved">
+            <div className="main-2">85%</div>
+            <div className="sub-2">Time Saved</div>
+          </div>
+          <div className="automated">
+            <div className="main-3">100%</div>
+            <div className="sub-3">Automated</div>
+          </div>  
+        </div>
+      </div>
+    
+
+
+    <div className="section-d">
+      <div className="img-1d-container">
+        <div className="img-1d"></div>
+      </div>
+      
+      <div className="img-2d-container">
+        <div className="img-2d"></div>
+      </div>
+
+      <div className="img-3d-container">
+        <div className="img-3d"></div>
+      </div>
+      
+    </div>
+
+    </div>
    </>
   );
 }
