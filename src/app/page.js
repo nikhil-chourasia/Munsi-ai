@@ -119,6 +119,54 @@ export default function Home() {
     </div>
 
     </div>
+
+
+<div className="hero-section-3">
+    <div className="section-e">
+      <div className="e-heading">
+        <div className="key-features-container">
+          <div className="key-features-button">Key Features</div>
+        </div>
+        <div className="e-heading-main">
+          <div className="e-head-1">Everything You Need to</div>
+          <div className="e-head-2">Grow Your Business</div>
+        </div>
+        <div className="e-sub-heading">
+          Powerful features designed to simplify your business analytics and drive growth
+        </div>
+      </div>
+
+      <div className="carbox-main-container">
+        <div className="cardbox-container-1">
+          <div className="e-card-1"></div>
+          <div className="e-card-2"></div>
+          <div className="e-card-3"></div>
+        </div>
+        <div className="cardbox-container-2">
+          <div className="e-card-4"></div>
+          <div className="e-card-5"></div>
+          <div className="e-card-6"></div>
+        </div>
+      </div>
+
+      <div className="big-feature-main-container">
+        
+        <div className="big-feature-card">
+          <div className="container-1">
+          <div className="big-feature-heading">Ready to Transform Your Business?</div>
+          </div>
+          <div className="container-2">
+          <div className="big-feature-sub-heading">Join the waitlist to be among the first to experience AI-powered business analytics</div>
+          </div>
+          <div className="container-3">
+            <div className="sub-container-3">
+              <div className="get-early-access">Get Early Access</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
    </>
   );
 }
