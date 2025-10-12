@@ -167,6 +167,183 @@ export default function Home() {
       </div>
     </div>
     </div>
+
+
+<div className="hero-section-4">
+      <div className="section-f-heading">
+        <div className="tech-stack-container">
+          <div className="tech-stack">
+           <div className="tech-stack-text">Technology Stack</div>
+          </div>
+        </div>
+          <div className="f-head-container">
+            <div className="f-head-1">Powered By</div>
+            <div className="f-head-2">Mordern Tech</div>
+          </div>
+          <div className="f-subhead">Built with cutting-edge technologies for performance, scalability, and reliability</div>
+      </div>
+
+
+      <div className="animation-container">
+          <div className="wrapper">
+            <div className="item item1"></div>
+            <div className="item item2"></div>
+            <div className="item item3"></div>
+            <div className="item item4"></div>
+            <div className="item item5"></div>
+            <div className="item item6"></div>
+            <div className="item item7"></div>
+            <div className="item item8"></div>
+            <div className="item item9"></div>
+        </div>
+      </div>
+
+
+      <div className="section-f-end-container">
+        <div className="section-f-end">Our tech stack is carefully chosen to deliver lightning-fast performance, enterprise-grade security, and seamless scalability as your business grows.</div>
+      </div>
+</div>
+
+
+
+
+
+
+
+    <div className="dev-head-main">
+      <div className="meet-the-team-container">
+        <div className="meet-the-team">
+          <div className="team-text">Meet The Team</div>
+        </div>
+      </div>
+
+      <div className="meet-container">
+        <div className="sec-1">The Minds Behind</div>
+        <div className="sec-2">Munsi AI</div>
+
+      </div>
+
+      <div className="dev-sub-head">A passionate team of innovators dedicated to revolutionizing business intelligence with AI</div>
+    </div>
+
+
+
+
+
+
+    <div className="card-component-container">
+      <div className="card-ankit">
+        <div className="ankit-photo-container">
+          <div className="ankit-photo"></div>
+        </div>
+        <div className="ankit-name">Ankit</div>
+        <div className="ankit-role-container">
+          <div className="ankit-role-box">
+            <div className="ankit-role">Backend Developer</div>
+          </div>
+        </div>
+        <div className="ankit-description-container">
+        <div className="ankit-description">Architecting robust server-side solutions and ensuring seamless data flow for Munsi AI's intelligent backend infrastructure.</div>
+        </div>
+        <div className="ankit-socials-container">
+          <div className="ankit-instagram"></div>
+          <div className="ankit-github"></div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div className="card-ayushman">
+        <div className="ayushman-photo-container">
+          <div className="ayushman-photo"></div>
+        </div>
+        <div className="ayushman-name">Ayushman</div>
+        <div className="ayushman-role-container">
+          <div className="ayushman-role-box">
+            <div className="ayushman-role">Frontend Developer</div>
+          </div>
+        </div>
+        <div className="ayushman-description-container">
+        <div className="ayushman-description">Crafting beautiful, responsive user interfaces and bringing designs to life with modern web technologies.
+                        </div>
+        </div>
+        <div className="ayushman-socials-container">
+          <div className="ayushman-instagram"></div>
+          <div className="ayushman-github"></div>
+        </div>
+      </div>
+
+
+
+
+
+      <div className="card-nikhil">
+        <div className="nikhil-photo-container">
+          <div className="nikhil-photo"></div>
+        </div>
+        <div className="nikhil-name">Nikhil</div>
+        <div className="nikhil-role-container">
+          <div className="nikhil-role-box">
+            <div className="nikhil-role">AI/ML Engineer</div>
+          </div>
+        </div>
+        <div className="nikhil-description-container">
+        <div className="nikhil-description">Crafting beautiful, responsive user interfaces and bringing designs to life with modern web technologies.
+                        </div>
+        </div>
+        <div className="nikhil-socials-container">
+          <div className="nikhil-instagram"></div>
+          <div className="nikhil-github"></div>
+        </div>
+      </div>
+
+
+
+
+
+      <div className="card-aabir">
+        <div className="aabir-photo-container">
+          <div className="aabir-photo"></div>
+        </div>
+        <div className="aabir-name">Aabir</div>
+        <div className="aabir-role-container">
+          <div className="aabir-role-box">
+            <div className="aabir-role">UI/UX Designer</div>
+          </div>
+        </div>
+        <div className="aabir-description-container">
+        <div className="aabir-description">Designing intuitive user experiences and creating visually stunning interfaces that make complex data simple.
+                        </div>
+        </div>
+        <div className="aabir-socials-container">
+          <div className="aabir-instagram"></div>
+          <div className="aabir-github"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div className="dev-end-container">
+      <div className="dev-end-box">
+        <div className="dev-end-head-container">
+            <div className="dev-end-head-1">Building the Future of</div>
+            <div className="dev-end-head-2">Business Intelligence</div>
+        </div>
+
+      <div className="dev-description-container">
+        <div className="dev-description">Our diverse team combines expertise in backend development, frontend engineering, AI/ML, and design to create a seamless, intelligent platform that empowers businesses to make data-driven decisions with confidence.
+
+        </div>
+      </div>
+
+      
+      </div>
+    </div>
    </>
   );
 }
