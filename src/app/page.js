@@ -1,5 +1,10 @@
 import Image from "next/image";
+import React from "react";
+
+
+
 export default function Home() {
+  
   return (
     <>
    
@@ -10,9 +15,9 @@ export default function Home() {
         </div>
         
         <div className="navigation-icons">
-          <div className="about">About</div>
-          <div className="features">Features</div>
-          <div className="tech-stack">Tech Stack</div>
+          <a href="#about-id" className="about-scroll"><div className="about">About</div></a>
+          <a href="#feature-id" className="feature-scroll"><div className="features">Features</div></a>
+          <a href="#techstack-id" className="techstack-scroll"> <div className="tech-stack">Tech Stack</div></a>
           <div className="benefits">Benefits</div>
           <div className="get-notified">Get Notified</div>
         </div>
@@ -32,10 +37,10 @@ export default function Home() {
     <div className="work-track-grow">Work, Track, Grow</div>  
     <div className="description">Business Analytics simplified for small businesses using AI. Munsi AI is your intelligent companion for smarter business decisions.</div>
     <div className="CTA">
-    <div className="learn-more-button">
+     <a href="#about-id" className="about-scroll"><div className="learn-more-button">
       <div className="text">Learn More</div>
       <div className="downarrow"></div>
-    </div>
+    </div></a>
     <div className="early-access">Get Early Access</div>
     </div>
     <div className="minidetails">
@@ -75,7 +80,7 @@ export default function Home() {
 
 
 
-<div className="hero-section-2">
+<div className="hero-section-2" id="about-id">
 
     <div className="section-c">
       <div className="about-munsi-ai">About Munsi AI</div>
@@ -122,9 +127,9 @@ export default function Home() {
 
 
 <div className="hero-section-3">
-    <div className="section-e">
+    <div className="section-e" id="feature-id">
       <div className="e-heading">
-        <div className="key-features-container">
+        <div className="key-features-container" >
           <div className="key-features-button">Key Features</div>
         </div>
         <div className="e-heading-main">
@@ -171,7 +176,7 @@ export default function Home() {
 
 <div className="hero-section-4">
       <div className="section-f-heading">
-        <div className="tech-stack-container">
+        <div className="tech-stack-container" id="techstack-id">
           <div className="tech-stack">
            <div className="tech-stack-text">Technology Stack</div>
           </div>
@@ -292,7 +297,7 @@ export default function Home() {
           </div>
         </div>
         <div className="nikhil-description-container">
-        <div className="nikhil-description">Building intelligent algorithms and machine learning models that power Munsi AI's predictive analytics capabilities.
+        <div className="nikhil-description">Building intelligent algorithms and machine learning models that power Munsi AI&apos;s predictive analytics capabilities.
 
                         </div>
         </div>

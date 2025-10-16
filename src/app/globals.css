@@ -2,6 +2,7 @@
 *{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body
 {
@@ -375,10 +376,11 @@ transition: all 0.3s ease;
 {
   height: 7.708vw;
   width: 15.104vw;
-  background-image: url(Feature\ card\ 1.png);
+  background-image: url(Feature\ card\ 3\ \(4\).png);
   background-size: cover;
+  border-radius: 35px;
      overflow: hidden;
-
+box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
   transform: scale(0.9);
   transition: transform 0.3s ease-in-out;
 }
@@ -398,7 +400,9 @@ transition: all 0.3s ease;
   align-items: center;
   height: 13.854vw;
   width:16.615vw;
-  background-image: url(Feature\ card\ 2.png);
+    border-radius: 35px;
+box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
+  background-image: url(Feature\ card\ 4\ \(3\).png);
   background-size: cover;
    transform: scale(0.9);
   transition: transform 0.3s ease-in-out;
@@ -417,7 +421,9 @@ transition: all 0.3s ease;
 {
   height: 7.708vw;
   width: 15.104vw;
-  background-image: url(Feature\ Card\ 3.png);
+    border-radius: 35px;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
+  background-image: url(Feature\ Card\ 4\ \(4\).png);
   background-size: cover;
   
 
@@ -905,7 +911,7 @@ color: #39bff4;
 {
   margin-top: 100px;
   margin-bottom: 100px;
-  height: 17.083vw;
+  height: 16.083vw;
   background: white;
   border: 2px solid black;
   border-left: none;
@@ -913,10 +919,7 @@ color: #39bff4;
 }
 
 .wrapper {
-  
- 
- 
-  position: relative;
+   position: relative;
   height: 100px;
     margin-top: 4.9vw;
   overflow: hidden;
@@ -925,6 +928,10 @@ color: #39bff4;
  align-items: center;
   
 }
+.wrapper:hover{
+animation-play-state: paused;
+}
+
 
 @keyframes scrollLeft {
   to {
@@ -940,7 +947,7 @@ color: #39bff4;
   position: absolute;
   left: max(calc(200px * 8), 100%);
   animation-name: scrollLeft;
-  animation-duration: 50s;
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   display: flex;
@@ -951,57 +958,57 @@ color: #39bff4;
 .item1 {
   background: url(Python\ logo\ \(1\).png);
   background-size: cover;
-  animation-delay: calc(50s / 9 * (9 - 1) * -1);
+  animation-delay: calc(30s / 9 * (9 - 1) * -1);
 }
 
 .item2 {
  
   background: url(Plotly\ logo\ \(1\).png);
   background-size: cover;
-  animation-delay: calc(50s / 9 * (9 - 2) * -1);
+  animation-delay: calc(30s / 9 * (9 - 2) * -1);
 }
 
 .item3 {
  
   background: url(express.js\ logo\ \(1\).png);
   background-size: cover;
-  animation-delay: calc(50s / 9 * (9 - 3) * -1);
+  animation-delay: calc(30s / 9 * (9 - 3) * -1);
 }
 
 .item4 {
  background: url(Scikit_learn_logo_small\ logo.png);
   background-size: cover;
-  animation-delay: calc(50s / 9 * (9 - 4) * -1);
+  animation-delay: calc(30s / 9 * (9 - 4) * -1);
 }
 
 .item5 {
   background: url(Pandas_logo\ logo.png);
   background-size: cover;
-  animation-delay: calc(50s / 9 * (9 - 5) * -1);
+  animation-delay: calc(30s / 9 * (9 - 5) * -1);
 }
 
 .item6 {
   background: url(Node.js\ logo.png);
   background-size: cover;
-  animation-delay: calc(50s / 9 * (9 - 6) * -1);
+  animation-delay: calc(30s / 9 * (9 - 6) * -1);
 }
 
 .item7 {
   background: url(NumPy_logo_2020\ logo.png);
   background-size: cover;
-  animation-delay: calc(50s / 9 * (9 - 7) * -1);
+  animation-delay: calc(30s / 9 * (9 - 7) * -1);
 }
 
 .item8 {
   background: url(Vercel\ logo.png);
   background-size: cover;
-  animation-delay: calc(50s / 9 * (9 - 8) * -1);
+  animation-delay: calc(30s / 9 * (9 - 8) * -1);
 }
 
 .item9 {
   background: url(npm\ logo.png);
    background-size: cover;
-  animation-delay: calc(50s / 9 * (9 - 9) * -1);
+  animation-delay: calc(30s / 9 * (9 - 9) * -1);
 }
 
 
@@ -1189,7 +1196,7 @@ color: #39bff4;
 {
   height:2.135vw ;
   width:2.135vw ;
-  background: url(instragram.png);
+  background: url(X.png);
   background-size: cover;
 }
 .card-component-container .card-ankit .ankit-socials-container .ankit-github
@@ -1296,7 +1303,7 @@ color: #39bff4;
 {
   height:2.135vw ;
   width:2.135vw ;
-  background: url(instragram.png);
+  background: url(instragram\ \(1\).png);
   background-size: cover;
 }
 .card-component-container .card-ayushman .ayushman-socials-container .ayushman-github
@@ -1406,7 +1413,7 @@ color: #39bff4;
 {
   height:2.135vw ;
   width:2.135vw ;
-  background: url(instragram.png);
+  background: url(instragram\ \(1\).png);
   background-size: cover;
 }
 .card-component-container .card-nikhil .nikhil-socials-container .nikhil-github
@@ -1518,7 +1525,7 @@ color: #39bff4;
 {
   height:2.135vw ;
   width:2.135vw ;
-  background: url(instragram.png);
+  background: url(instragram\ \(1\).png);
   background-size: cover;
 }
 .card-component-container .card-aabir .aabir-socials-container .aabir-github
