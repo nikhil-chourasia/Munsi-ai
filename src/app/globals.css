@@ -11,12 +11,17 @@ body
 /*******/
 .hero-section
 {
+    margin-top: 150px;
+
   display: flex;
   margin-left: 11vw;
   margin-right: 11vw;
 }
 
-
+.except-navbar
+{
+  margin-top: 50px;
+}
 
 
 
@@ -34,7 +39,9 @@ body
   border-bottom: 1.5px solid rgb(158, 158, 158);
   background: #eeeeee;
     font-size: 1.2vw;
-
+  position: fixed;
+  z-index: 1000;
+  top: 0;
   color: rgb(89, 92, 90);
   margin-bottom: 1.5px;
 }
@@ -52,14 +59,78 @@ body
   height: 8vw;
   width: 8vw;
 }
-.navbar-container .navigation-icons
+.navbar .navbar-container .navigation-icons
 {
+   display: flex;
   align-items: center;
-  display: flex;
   justify-content: center;
   gap: 3.5vw;
   width:50vw ;
 }
+.navbar-container .navigation-icons .about
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5vw;
+      cursor: pointer;
+transition: all 0.3s ease;
+
+}
+.navbar-container .navigation-icons .about:hover
+{
+  color: #6000fa;
+}
+.navbar-container .navigation-icons .features
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5vw;
+    cursor: pointer;
+transition: all 0.3s ease;
+
+
+}
+.navbar-container .navigation-icons .features:hover
+{
+    color: #6000fa;
+ 
+}
+
+.navbar-container .navigation-icons .tech-stack
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5vw;
+    cursor: pointer;
+transition: all 0.3s ease;
+
+
+}
+.navbar-container .navigation-icons .tech-stack:hover
+{
+      color: #6000fa;
+
+}
+
+.navbar-container .navigation-icons .benefits
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5vw;
+    cursor: pointer;
+transition: all 0.3s ease;
+
+}
+.navbar-container .navigation-icons .benefits:hover
+{
+      color: #6000fa;
+
+}
+
 .navbar-container .navigation-icons .get-notified
 {
   height: 4vw;
@@ -70,7 +141,15 @@ body
   background: linear-gradient(to right, #8133FF,  #48B1F8);
   color: white;
   border-radius: 35px;
+    cursor: pointer;
+  transform: scale(1); /* No scaling initially */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for 0.3 seconds */
+
 }
+.navbar-container .navigation-icons .get-notified:hover{
+  transform: scale(1.1);
+}
+
 
 /* main content of the page */
 
@@ -148,7 +227,16 @@ body
   color: white;
   border-radius: 35px;
   gap: 10px;
+      cursor: pointer;
+    transform: scale(1);
+   transition: transform 0.3s ease-in-out;
+
 }
+.CTA .learn-more-button:hover
+{
+    transform: scale(1.1);
+}
+
 .CTA .learn-more-button .text
 {
     font-size: 1.2vw;
@@ -160,6 +248,7 @@ body
   width:1.2vw;
   background: url(down-arrow.png);
   background-size: cover;
+
 }
 
 .CTA .early-access
@@ -168,16 +257,25 @@ body
   width: 11vw;
   display: flex;
   justify-content: center;
+  font-weight: 500;
   align-items: center;
   color: #8b2cf5;
   border: 2px solid #8b2cf5;
   border-radius: 35px;
       font-size: 1.2vw;
 
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+  
+
 }
 
-
-
+.CTA .early-access:hover
+{
+  background-color: #8c3ef3;
+  color: white;
+}
 .minidetails
 {
  display: flex;
@@ -279,13 +377,15 @@ body
   width: 15.104vw;
   background-image: url(Feature\ card\ 1.png);
   background-size: cover;
-  border-radius: 60px;
-    overflow: hidden;
+     overflow: hidden;
 
-  scale: 0.9;
-  box-shadow: 20px 20px 100px #705fe0;
-  
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
 }
+.B-container .img-1-container .img-1:hover{
+    transform: scale(1.0);
+}
+
 .B-container .img-2-container
 {
   display: flex;
@@ -300,12 +400,14 @@ body
   width:16.615vw;
   background-image: url(Feature\ card\ 2.png);
   background-size: cover;
-    border-radius: 60px;
-
-    scale: 0.9;
-  box-shadow: 20px 20px 100px #705fe0;
+   transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
 
 }
+.B-container .img-2-container .img-2:hover{
+   transform: scale(1.0);
+}
+
 .B-container .img-3-container
 {
   display: flex;
@@ -317,12 +419,17 @@ body
   width: 15.104vw;
   background-image: url(Feature\ Card\ 3.png);
   background-size: cover;
-    border-radius: 60px;
-  box-shadow: 20px 20px 100px #705fe0;
+  
 
-    scale: 0.9;
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
 
 }
+
+.B-container .img-3-container .img-3:hover{
+  transform: scale(1.1);
+}
+
 
 
 

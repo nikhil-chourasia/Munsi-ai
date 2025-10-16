@@ -19,7 +19,7 @@ export default function Home() {
       </div>
     </div>
       
-    
+<div className="except-navbar">
 <div className="hero-section">
    
     <div className="sectionA">    
@@ -292,7 +292,8 @@ export default function Home() {
           </div>
         </div>
         <div className="nikhil-description-container">
-        <div className="nikhil-description">Crafting beautiful, responsive user interfaces and bringing designs to life with modern web technologies.
+        <div className="nikhil-description">Building intelligent algorithms and machine learning models that power Munsi AI's predictive analytics capabilities.
+
                         </div>
         </div>
         <div className="nikhil-socials-container">
@@ -344,6 +345,8 @@ export default function Home() {
       
       </div>
     </div>
+
+    </div> 
    </>
   );
 }
