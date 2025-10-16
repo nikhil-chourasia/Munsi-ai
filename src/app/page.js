@@ -243,7 +243,7 @@ export default function Home() {
           </div>
         </div>
         <div className="ankit-description-container">
-        <div className="ankit-description">Architecting robust server-side solutions and ensuring seamless data flow for Munsi AI's intelligent backend infrastructure.</div>
+        <div className="ankit-description">Architecting robust server-side solutions and ensuring seamless data flow for Munsi AI&apos;s intelligent backend infrastructure.</div>
         </div>
         <div className="ankit-socials-container">
           <div className="ankit-instagram"></div>
