@@ -1,0 +1,22 @@
+
+
+.joinwaitlistbox
+{
+    width: 30.99vw;
+    height: 32.865vw;
+}
+
+.maillogocontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maillogo
+{
+    width:5.26vw ;
+    height:5.104vw ;
+    background: url(Gmail\ logo.png);
+    background-size: cover;
+}

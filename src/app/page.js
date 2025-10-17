@@ -18,8 +18,8 @@ export default function Home() {
           <a href="#about-id" className="about-scroll"><div className="about">About</div></a>
           <a href="#feature-id" className="feature-scroll"><div className="features">Features</div></a>
           <a href="#techstack-id" className="techstack-scroll"> <div className="tech-stack">Tech Stack</div></a>
-          <div className="benefits">Benefits</div>
-          <div className="get-notified">Get Notified</div>
+          <a href="#team-id" className="techstack-scroll"><div className="benefits">Team</div></a>
+          <a href="http://localhost:3000/waitlist"><div className="get-notified">Get Notified</div></a>
         </div>
       </div>
     </div>
@@ -41,7 +41,9 @@ export default function Home() {
       <div className="text">Learn More</div>
       <div className="downarrow"></div>
     </div></a>
+    <a href="http://localhost:3000/waitlist">
     <div className="early-access">Get Early Access</div>
+    </a>
     </div>
     <div className="minidetails">
       <div className="minidetails-1">
@@ -215,7 +217,7 @@ export default function Home() {
 
 
 
-    <div className="dev-head-main">
+    <div className="dev-head-main" id="team-id">
       <div className="meet-the-team-container">
         <div className="meet-the-team">
           <div className="team-text">Meet The Team</div>
@@ -251,8 +253,12 @@ export default function Home() {
         <div className="ankit-description">Architecting robust server-side solutions and ensuring seamless data flow for Munsi AI&apos;s intelligent backend infrastructure.</div>
         </div>
         <div className="ankit-socials-container">
+            <a href="https://linkedin.com/in/ankit-111-raj" target="_blank" >
           <div className="ankit-instagram"></div>
+          </a>
+          <a href="https://github.com/Ankit-raj-11" target="_blank" >
           <div className="ankit-github"></div>
+          </a>
         </div>
       </div>
 
@@ -277,8 +283,12 @@ export default function Home() {
                         </div>
         </div>
         <div className="ayushman-socials-container">
+          <a href="https://x.com/ayushman_hex9" target="_blank" >
           <div className="ayushman-instagram"></div>
+          </a>
+          <a href="https://github.com/ayushman-c" target="_blank">
           <div className="ayushman-github"></div>
+          </a>
         </div>
       </div>
 
@@ -302,8 +312,12 @@ export default function Home() {
                         </div>
         </div>
         <div className="nikhil-socials-container">
+          <a href="https://x.com/nikhil_py" target="_blank">
           <div className="nikhil-instagram"></div>
+          </a>
+          <a href="https://github.com/nikhil-chourasia" target="_blank">
           <div className="nikhil-github"></div>
+          </a>
         </div>
       </div>
 
@@ -326,8 +340,12 @@ export default function Home() {
                         </div>
         </div>
         <div className="aabir-socials-container">
+          <a href="https://www.instagram.com/dumb_aabir?igsh=YW8zYWRrdWxiMGZr" target="_blank">
           <div className="aabir-instagram"></div>
+          </a>
+          <a href="https://github.com/AabirManik" target="_blank">
           <div className="aabir-github"></div>
+          </a>
         </div>
       </div>
     </div>
