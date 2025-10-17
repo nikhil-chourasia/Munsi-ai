@@ -59,20 +59,27 @@ export default function WaitlistPage() {
           </div>
 
           {/* Email Form */}
-          <form onSubmit={handleSubmit} className="email-container">
+
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-y-4  items-center space-y-4 max-w-sm mx-auto"
+          >
             <input
               type="email"
               placeholder="youremail@gmail.com"
-              className="email-input"
+              /* behenchoo.. isme border radius kyu nhi lg raha hai?*/
+              className="w-64 rounded-full h-10 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-base"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
 
-            <button type="submit" className="join-waitlist-container">
-              <div className="join-waitlist">
-                <div className="join-waitlist-text">Join Waitlist</div>
-              </div>
+            <button
+              type="submit"
+              // Increased vertical padding (py-3) and decreased width to match the input
+              className="w-64 h-10 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300"
+            >
+              <span className="font-semibold">Join Waitlist</span>
             </button>
           </form>
 
