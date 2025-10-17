@@ -68,14 +68,14 @@ export default function WaitlistPage() {
               onChange={(e) => setEmail(e.target.value)}
               required
             />
-
-            <button type="submit" className="join-waitlist-container">
+          </form>
+          <div className="button-container">
+          <button type="submit" className="join-waitlist-container">
               <div className="join-waitlist">
                 <div className="join-waitlist-text">Join Waitlist</div>
               </div>
             </button>
-          </form>
-
+          </div>
           {/* Response Message */}
           {message && (
             <div className="user-info text-sm text-center mt-3">{message}</div>

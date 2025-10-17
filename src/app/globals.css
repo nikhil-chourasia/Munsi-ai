@@ -1708,7 +1708,12 @@ animation-play-state: paused;
   align-items: center;
   margin-top: 1.042vw;
 }
-
+.join-waitlist-box-container .join-waitlist-box .button-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .join-waitlist-box-container .join-waitlist-box .email-input
 {
   width: 22.76vw;
