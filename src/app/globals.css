@@ -1196,8 +1196,9 @@ animation-play-state: paused;
 {
   height:2.135vw ;
   width:2.135vw ;
-  background: url(X.png);
+  background: url(Linked\ in.png);
   background-size: cover;
+  cursor: pointer;
 }
 .card-component-container .card-ankit .ankit-socials-container .ankit-github
 {
@@ -1205,6 +1206,8 @@ animation-play-state: paused;
   width:2.135vw ;
   background: url(github\ \(2\).png);
   background-size: cover;
+    cursor: pointer;
+
 }
 
 
@@ -1305,6 +1308,8 @@ animation-play-state: paused;
   width:2.135vw ;
   background: url(instragram\ \(1\).png);
   background-size: cover;
+    cursor: pointer;
+
 }
 .card-component-container .card-ayushman .ayushman-socials-container .ayushman-github
 {
@@ -1312,6 +1317,8 @@ animation-play-state: paused;
   width:2.135vw ;
   background: url(github\ \(2\).png);
   background-size: cover;
+    cursor: pointer;
+
 }
 
 
@@ -1415,6 +1422,8 @@ animation-play-state: paused;
   width:2.135vw ;
   background: url(instragram\ \(1\).png);
   background-size: cover;
+    cursor: pointer;
+
 }
 .card-component-container .card-nikhil .nikhil-socials-container .nikhil-github
 {
@@ -1422,6 +1431,8 @@ animation-play-state: paused;
   width:2.135vw ;
   background: url(github\ \(2\).png);
   background-size: cover;
+    cursor: pointer;
+
 }
 
 
@@ -1525,15 +1536,19 @@ animation-play-state: paused;
 {
   height:2.135vw ;
   width:2.135vw ;
-  background: url(instragram\ \(1\).png);
+  background: url(github\ \(2\).png);
   background-size: cover;
+    cursor: pointer;
+
 }
 .card-component-container .card-aabir .aabir-socials-container .aabir-github
 {
   height:2.135vw ;
   width:2.135vw ;
-  background: url(github\ \(2\).png);
+  background: url(Instragram\ \(2\).png);
   background-size: cover;
+    cursor: pointer;
+
 }
 
 
@@ -1605,3 +1620,130 @@ animation-play-state: paused;
 }
  
 
+/****waitlist page****/
+.back-button
+{
+  height: 1.927vw;
+  width: 11.354vw;
+  position: relative;
+  top: 2.24vw;
+  left: 2.552vw;
+  background-color: #02b5fc;
+  cursor: pointer;
+  background: url(Back\ to\ home.png);
+  background-size: cover;
+}
+.join-waitlist-box-container
+{
+  margin-top: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.join-waitlist-box-container .join-waitlist-box
+{
+  width: 30.99vw;
+  height: 32.865vw;
+  background-color: white;
+  border-radius: 20px;
+   box-shadow:
+    0 0 10px rgba(0, 0, 0, 0.05),
+    0 0 20px rgba(0, 0, 0, 0.04),
+    0 0 30px rgba(0, 0, 0, 0.03),
+    0 0 40px rgba(0, 0, 0, 0.02);
+
+}
+
+
+
+
+.join-waitlist-box-container .join-waitlist-box .mail-logo-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.646vw;
+}
+
+.join-waitlist-box-container .join-waitlist-box .mail-logo-container .mail-logo
+{
+  height: 5.104vw;
+  width: 5.26vw;
+  background: url(Gmail\ logo.png);
+  background-size: cover;
+}
+
+.join-waitlist-box-container .join-waitlist-box .JTWL-text
+{
+  font-weight: 700;
+  font-style: bold;
+  font-size: 2.708vw;
+  text-align: center;
+  margin-top: 0.781vw;
+}
+.join-waitlist-box-container .join-waitlist-box .infotext-cont
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-waitlist-box-container .join-waitlist-box .infotext
+{
+  font-weight: 500;
+  font-size: 1.146vw;
+  color: #222233B3;
+  text-align: center;
+  margin-top: 0.781vw;
+  width: 22.865vw;
+
+}
+
+.join-waitlist-box-container .join-waitlist-box .email-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.042vw;
+}
+
+.join-waitlist-box-container .join-waitlist-box .email-input
+{
+  width: 22.76vw;
+  height: 3.854vw;
+  font-size: 1.25vw;
+  padding-left: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.join-waitlist-box-container .join-waitlist-box .join-waitlist-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-top: 2.042vw;
+}
+
+.join-waitlist-box-container .join-waitlist-box .join-waitlist-container .join-waitlist
+{
+  height:3.229vw ;
+  width:23.438vw ;
+  border-radius: 20px;
+background: linear-gradient(to right, #8133FF,  #48B1F8);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+    cursor: pointer;
+
+}
+
+.join-waitlist-box-container .join-waitlist-box .join-waitlist-container .join-waitlist .join-waitlist-text
+{
+  margin-top: 0.625vw;
+  font-weight: 800;
+  color: white;
+  font-size: 1.354vw;
+}
