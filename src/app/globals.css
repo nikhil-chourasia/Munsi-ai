@@ -662,7 +662,7 @@ color: #39bff4;
   align-items: center;
   font-size: 3.5vw;
   font-weight: 650;
-  gap: 10px;
+  gap: 0.523vw;
 }
 
 .section-e .e-heading .e-heading-main .e-head-2
@@ -876,7 +876,7 @@ color: #39bff4;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 0.533vw;
 }
 
 .section-f-heading .f-head-container .f-head-1
@@ -1099,6 +1099,7 @@ animation-play-state: paused;
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 3.125vw;
@@ -1108,9 +1109,11 @@ animation-play-state: paused;
 {
   height:32.708vw;
   width: 18.177vw;
+   
   background-color: white;
   border: 1px solid #6b6b7b;
   border-radius: 20px;
+  
 }
 
 .card-component-container .card-ankit .ankit-photo-container
@@ -1216,10 +1219,12 @@ animation-play-state: paused;
 .card-component-container .card-ayushman
 {
   height:32.708vw;
-  width: 18.177vw;
+   width: 18.177vw;
+    
   background-color: white;
   border-radius: 20px;
     border: 1px solid #6b6b7b;
+    
 
 }
 
@@ -1330,10 +1335,12 @@ animation-play-state: paused;
 .card-component-container .card-nikhil
 {
   height:32.708vw;
-  width: 18.177vw;
+   width: 18.177vw;
+    
   background-color: white;
   border-radius: 20px;
     border: 1px solid #6b6b7b;
+  
 
 }
 
@@ -1447,9 +1454,11 @@ animation-play-state: paused;
 {
   height:32.708vw;
   width: 18.177vw;
+ 
   background-color: white;
   border-radius: 20px;
-      border: 1px solid #6b6b7b;
+  border: 1px solid #6b6b7b;
+  
 
 }
 
@@ -1751,4 +1760,997 @@ background: linear-gradient(to right, #8133FF,  #48B1F8);
   font-weight: 800;
   color: white;
   font-size: 1.354vw;
+}
+
+
+
+
+/***foooter*****/
+.footer-box
+{
+  background-color: white;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.footer
+{
+  margin-top: 50px;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  background: white;
+}
+.footer .sub-footer-container
+{
+ 
+  display: flex;
+  justify-content: center;
+   gap: 2.735vw;
+   margin-bottom: 80px;
+}
+.footer .sub-footer-container .small-desc-1 
+{
+  width: 60vw;
+}
+
+.footer .sub-footer-container .small-desc-1 .footer-logo
+{
+  background: url(logo.png);
+  background-size: cover;
+  height: 7.344vw;
+   width: 7.5vw;
+   
+}
+
+.footer .sub-footer-container .small-desc-1 .footer-info
+{
+  font-size: 1.563vw;
+  color: #222233B3;
+  font-weight: 500;
+}
+
+.footer .sub-footer-container .quick-links
+{
+  width: 20vw;
+  
+}
+.footer .sub-footer-container .quick-links > *{
+  margin-top: 10px;
+  color: #222233B3;
+  font-style: bold;
+  font-weight: 550;
+}
+
+.footer .sub-footer-container .quick-links .quick-link-text
+{
+    font-size: 1.242vw;
+    font-style: bold;
+    font-weight: 600;
+    color: black;
+}
+.footer .sub-footer-container .get-in-touch
+{
+  width: 20vw;
+  
+  
+}
+.footer .sub-footer-container .get-in-touch > *
+{
+  margin-top: 10px;
+  color: #222233B3;
+  font-style: bold;
+  font-weight: 550;
+}
+.footer .sub-footer-container .get-in-touch .Get-in-Touch
+{
+    font-size: 1.242vw;
+    font-style: bold;
+    font-weight: 600;
+    color:black ;
+}
+.footer .border-line
+{
+  height: 1px;
+  background-color: black;
+  margin-bottom: 25px;
+}
+.footer .end-line
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.footer .end-line .copyright
+{
+  width: 70vw;
+}
+.footer .end-line .privacy-policy
+{
+  width: 15vw;
+}
+.footer .end-line .TOS
+{
+  width: 15vw;
+  
+}
+/*/
+
+/*********media query*******/
+/***for mobiles***/
+@media (max-width: 768px)
+{
+  .navbar-container
+  {
+    height: 70px;
+      font-size: 13px;
+  }
+  .navbar-container .logo-container
+  {
+    width: 20vw;
+  }
+  .navbar-container .logo-container .logo
+  {
+    height: 100px;
+    width: 100px;
+  }
+  .navbar .navbar-container .navigation-icons
+  {
+    width: 80vw;
+  }
+  .navbar-container .navigation-icons .get-notified
+  {
+    height: 40px;
+    width: 105px;
+  }
+  .except-navbar
+  {
+    margin-top: 10px;
+  }
+  .hero-section
+  {
+    flex-direction: column;
+  }
+  .sectionA
+  {
+    margin-top: 10px;
+    height: 250px;
+    width: 400px;
+  }
+  .launching-soon-container
+  {
+      height: 50px;
+    width: 150px;
+  }
+  .launching-soon-container .spark
+  {
+    height:25px ;
+    width: 25px;
+  }
+  .launching-soon-container .text
+  {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .coming-soon-text
+  {
+    font-size: 50px;
+  }
+  .work-track-grow
+  {
+    font-size: 25px;
+    font-weight: 650;
+  }
+  .description
+  {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+  .CTA
+  {
+    margin-top: 10px;
+  }
+  .CTA .learn-more-button
+  {
+    height: 40px;
+    width: 125px;
+    gap: 5px;
+  }
+  .CTA .learn-more-button .text
+  {
+    font-size: 14px;
+  }
+  .CTA .learn-more-button .downarrow
+  {
+    height: 15px;
+    width: 15px;
+  }
+  
+ .CTA .early-access
+ {
+  height: 40px;
+  width: 125px;
+  font-size: 13px;
+ }
+
+ 
+ .minidetails
+ {
+  gap: 20px;
+ }
+ .minidetails .minidetails-1
+ {
+  border: none;
+  width: 160px;
+ }
+ .minidetails .minidetails-1 .main-text-1
+ {
+  font-size: 20px;
+ }
+ .minidetails .minidetails-1 .sub-text-1
+ {
+  font-size: 15px;
+ }
+ .minidetails .minidetails-2
+ {
+  border: none;
+ }
+  .minidetails .minidetails-2 .main-text-2
+ {
+  font-size: 20px;
+ }
+ .minidetails .minidetails-2 .sub-text-2
+ {
+  font-size: 15px;
+ }
+  .minidetails .minidetails-3 .main-text-3
+ {
+  font-size: 20px;
+ }
+ .minidetails .minidetails-3 .sub-text-3
+ {
+  font-size: 15px;
+ }
+
+ /**section B**/
+
+ .sectionB
+ {
+  margin-top: 200px;
+  margin-left: 60px;
+ }
+ .B-container .img-1-container .img-1
+ {
+    scale: 2;
+ }
+ 
+ .B-container .img-2-container .img-2
+ {
+    scale: 2;
+    margin-top: 14.719vw;
+    border-radius: 15;
+ }
+ .B-container .img-3-container .img-3
+ {
+    scale: 2;
+    margin-top: 14.719vw;
+ }
+
+
+  /*****hero section 2***/
+ .hero-section-2
+ {
+   margin-top: 0px;
+  flex-direction: column;
+ }
+
+ .section-c
+ {
+  width: auto;
+  margin-right: 11vw;
+ }
+ .section-c .about-munsi-ai
+ {
+  height: 50px;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 550;
+ }
+ .section-c .your-ai
+ {
+  font-size: 35px;
+ }
+ .section-c .BC
+ {
+    font-size: 45px;
+    line-height:50px;
+ }
+ .section-c .description-1
+ {
+  margin-top: 20px;
+    font-size: 16px;
+ }
+ .section-c .description-2
+ {
+  font-size: 16px;
+ }
+ .section-c .efficiency-part-container
+ {
+  margin-top: 16px;
+  gap: 50px;
+ }
+ .section-c .efficiency-part-container .faster-insite .main-1
+ {
+    font-size: 30px;
+ }
+ .section-c .efficiency-part-container .faster-insite .sub-1
+ {
+  font-size: 16px;
+ }
+ .section-c .efficiency-part-container .time-saved .main-2
+ {
+      font-size: 30px;
+ }
+  .section-c .efficiency-part-container .time-saved .sub-2
+  {
+    font-size: 16px;
+  }
+ .section-c .efficiency-part-container .automated .main-3
+ {
+    font-size: 30px;
+ }
+ .section-c .efficiency-part-container .automated .sub-3
+ {
+    font-size: 16px;
+ }
+ .section-d
+ {
+  margin-left: 70px;
+  margin-top: 50px;
+ }
+ .section-d .img-1d
+ {
+  
+  scale: 2.2;
+ }
+  .section-d .img-2d
+ {
+  margin-top: 90px;
+  scale: 2.2;
+ }
+  .section-d .img-3d
+ {
+  margin-top: 90px;
+  scale: 2.2;
+ }
+ .section-e .e-heading .key-features-container .key-features-button
+ {
+  height: 40px;
+  width: 125px;
+  font-size: 12px;
+  font-weight: 550;
+ }
+ .section-e .e-heading .e-heading-main
+{
+ 
+  font-size: 21px;
+  font-weight: 650;
+  gap: 5px;
+}
+.section-e .e-heading .e-sub-heading
+{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #6B6B7B;
+  font-size:16px;
+}
+.carbox-main-container .cardbox-container-1
+{
+      gap: 80px;
+    margin-bottom: 50px;
+  
+}
+.carbox-main-container .cardbox-container-1 .e-card-1
+{
+  scale: 1.5;
+}
+.carbox-main-container .cardbox-container-1 .e-card-2
+{
+  scale: 1.5;
+}
+.carbox-main-container .cardbox-container-1 .e-card-3
+{
+  scale: 1.5;
+}
+.carbox-main-container .cardbox-container-2
+{
+      gap: 80px;
+    margin-bottom: 50px;
+  
+}
+.carbox-main-container .cardbox-container-2 .e-card-4
+{
+  scale: 1.5;
+}
+.carbox-main-container .cardbox-container-2 .e-card-5
+{
+  scale: 1.5;
+}
+.carbox-main-container .cardbox-container-2 .e-card-6
+{
+  scale: 1.5;
+}
+.big-feature-main-container .big-feature-card 
+{
+  height: 120px;
+    width: 450px;
+  border-radius: 15px;
+  
+}
+.big-feature-main-container .big-feature-card .container-1 .big-feature-heading
+{
+  font-size: 20px;
+}
+.big-feature-main-container .big-feature-card .container-2 .big-feature-sub-heading
+{
+  font-size: 10px;
+  text-align: center;
+}
+.big-feature-main-container .big-feature-card .container-3
+{
+  margin-top: 10px;
+}
+.big-feature-main-container .big-feature-card .container-3 .sub-container-3
+{
+  height: 35px;
+  width: 150;
+}
+.big-feature-main-container .big-feature-card .container-3 .sub-container-3 .get-early-access
+{
+  font-size: 12px;
+}
+.section-f-heading .tech-stack-container .tech-stack
+{
+  width: 150px;
+  height: 40;
+   
+}
+
+.section-f-heading .tech-stack-container .tech-stack .tech-stack-text
+{
+ 
+    font-weight: 550;
+  font-size: 12px;
+}
+.section-f-heading .f-head-container
+{
+  gap: 5px;
+}
+.section-f-heading .f-head-container .f-head-1
+{
+    font-size: 30px;
+   font-weight: 700;
+  font-style: Bold;
+}
+
+.section-f-heading .f-head-container .f-head-2
+{
+   font-size: 30px;
+  font-weight: 700;
+  font-style: Bold;
+  background: linear-gradient(to right, #8133FF, #48B1F8, #8133FF);
+    background-clip: text;
+    color: transparent;
+}
+.section-f-heading .f-subhead
+{
+  font-weight: 400;
+  
+  font-size: 16px;
+  
+  
+}
+.animation-container
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 16.083vw;
+  background: white;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+}
+
+.wrapper {
+  position: relative;
+  height: 100px;
+  margin-top: 1px;
+  overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  
+}
+.item
+{
+    scale: 2;
+}
+
+
+.section-f-end-container
+{
+  
+  margin-bottom: 50px;
+}
+
+.section-f-end-container .section-f-end
+{
+  color: #6B6B7B;
+  font-size: 16px;
+  font-weight: 400;
+  width: 61.927vw;
+  text-align: center;
+}
+
+/*****dev section of the page******/
+
+.dev-head-main
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.meet-the-team-container
+{
+  margin-top: 100px;
+}
+
+.meet-the-team-container .meet-the-team
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.meet-the-team-container .meet-the-team .team-text
+{
+  
+  height: 40px; ;
+  width: 150px;
+
+  font-size: 14px;
+  font-weight: 550;
+  color: #32a3ff;
+}
+
+.meet-container
+{
+ margin-top: 10px;
+  gap: 5px;
+  font-size:  30px;;
+  font-weight: 700;
+    font-style: bold;
+}
+
+.meet-container .sec-2
+{
+  background: linear-gradient(to right, #8133FF, #48B1F8, #8133FF);
+    background-clip: text;
+    color: transparent;
+}
+
+.dev-sub-head
+{
+  font-size: 16px;
+  font-weight: 400;
+  color:#6B6B7B ;
+  text-align: center;
+}
+.card-component-container
+{
+  margin-top: 50px;
+}
+.card-component-container .card-ankit
+{
+  min-width: 39.063vw;
+   min-height:70.313vw;
+  flex: 1 1 calc(50% - 1rem);
+}
+.card-component-container .card-ankit .ankit-photo-container .ankit-photo
+{
+  margin-top: 2vw;
+  height: 35.417vw;
+  width: 33.333vw;
+}
+
+.card-component-container .card-ankit .ankit-name
+{
+  font-size: 4.688vw;
+  font-weight: 700;
+ 
+}
+
+
+.card-component-container .card-ankit .ankit-role-container .ankit-role-box
+{
+  margin-top: 0.781vw;
+  height:4.297vw;
+  width:26.432vw ;
+  border-radius: 35px;
+}
+
+.card-component-container .card-ankit .ankit-role-container .ankit-role-box .ankit-role
+{
+  font-size: 2.083vw;
+  
+}
+
+.card-component-container .card-ankit .ankit-description-container .ankit-description
+{
+  height:11.589vw ;
+  width:30.599vw ;
+    font-size: 1.883vw; 
+}
+
+.card-component-container .card-ankit .ankit-socials-container .ankit-instagram
+{
+  height:5.339vw ;
+  width:5.339vw ;
+  
+}
+.card-component-container .card-ankit .ankit-socials-container .ankit-github
+{
+  height:5.339vw ;
+  width:5.339vw ;
+  
+
+}
+
+
+.card-component-container .card-ayushman
+{
+  flex: 1 1 calc(50% - 1rem);
+  min-width: 39.063vw;
+   min-height:70.313vw;
+}
+
+.card-component-container .card-ayushman .ayushman-photo-container .ayushman-photo
+{
+  margin-top: 2vw;
+  height: 35.417vw;
+  width: 33.333vw;
+}
+
+.card-component-container .card-ayushman .ayushman-name
+{
+  font-size: 4.688vw;
+  font-weight: 700;
+ 
+}
+
+
+.card-component-container .card-ayushman .ayushman-role-container .ayushman-role-box
+{
+  margin-top: 0.781vw;
+  height:4.297vw;
+  width:26.432vw ;
+  border-radius: 35px;
+}
+
+.card-component-container .card-ayushman .ayushman-role-container .ayushman-role-box .ayushman-role
+{
+  font-size: 2.083vw;
+  
+}
+
+.card-component-container .card-ayushman .ayushman-description-container .ayushman-description
+{
+  height:11.589vw ;
+  width:30.599vw ;
+    font-size: 1.883vw; 
+}
+
+.card-component-container .card-ayushman .ayushman-socials-container .ayushman-instagram
+{
+  height:5.339vw ;
+  width:5.339vw ;
+  
+}
+.card-component-container .card-ayushman .ayushman-socials-container .ayushman-github
+{
+  height:5.339vw ;
+  width:5.339vw ;
+  
+
+}
+
+.card-component-container .card-nikhil
+{
+  flex: 1 1 calc(50% - 1rem);
+  min-width: 39.063vw;
+   min-height:70.313vw;
+}
+
+.card-component-container .card-nikhil .nikhil-photo-container .nikhil-photo
+{
+  margin-top: 2vw;
+  height: 35.417vw;
+  width: 33.333vw;
+}
+
+.card-component-container .card-nikhil .nikhil-name
+{
+  font-size: 4.688vw;
+  font-weight: 700;
+ 
+}
+
+
+.card-component-container .card-nikhil .nikhil-role-container .nikhil-role-box
+{
+  margin-top: 0.781vw;
+  height:4.297vw;
+  width:26.432vw ;
+  border-radius: 35px;
+}
+
+.card-component-container .card-nikhil .nikhil-role-container .nikhil-role-box .nikhil-role
+{
+  font-size: 2.083vw;
+  
+}
+
+.card-component-container .card-nikhil .nikhil-description-container .nikhil-description
+{
+  height:11.589vw ;
+  width:30.599vw ;
+    font-size: 1.883vw; 
+}
+
+.card-component-container .card-nikhil .nikhil-socials-container .nikhil-instagram
+{
+  height:5.339vw ;
+  width:5.339vw ;
+  
+}
+.card-component-container .card-nikhil .nikhil-socials-container .nikhil-github
+{
+  height:5.339vw ;
+  width:5.339vw ;
+  
+
+}
+.card-component-container .card-aabir
+{
+  flex: 1 1 calc(50% - 1rem);
+   min-width: 39.063vw;
+   min-height:70.313vw;
+}
+
+.card-component-container .card-aabir .aabir-photo-container .aabir-photo
+{
+  margin-top: 2vw;
+  height: 35.417vw;
+  width: 33.333vw;
+}
+
+.card-component-container .card-aabir .aabir-name
+{
+  font-size: 4.688vw;
+  font-weight: 700;
+ 
+}
+
+
+.card-component-container .card-aabir .aabir-role-container .aabir-role-box
+{
+  margin-top: 0.781vw;
+  height:4.297vw;
+  width:26.432vw ;
+  border-radius: 35px;
+}
+
+.card-component-container .card-aabir .aabir-role-container .aabir-role-box .aabir-role
+{
+  font-size: 2.083vw;
+  
+}
+
+.card-component-container .card-aabir .aabir-description-container .aabir-description
+{
+  height:11.589vw ;
+  width:30.599vw ;
+    font-size: 1.883vw; 
+}
+
+.card-component-container .card-aabir .aabir-socials-container .aabir-instagram
+{
+  height:5.339vw ;
+  width:5.339vw ;
+  
+}
+.card-component-container .card-aabir .aabir-socials-container .aabir-github
+{
+  height:5.339vw ;
+  width:5.339vw ;
+  
+
+}
+
+
+
+
+/****/
+
+.dev-end-container
+{
+  
+  margin-bottom: 100px;
+}
+
+.dev-end-container .dev-end-box
+{
+  height: 28.917vw;
+  width: 79.323vw;
+  
+}
+
+.dev-end-container .dev-end-box .dev-end-head-container
+{
+ 
+  gap: 5px;
+}
+
+.dev-end-container .dev-end-box .dev-end-head-container .dev-end-head-1
+{
+    font-size: 3.475vw;
+  font-weight: 700;
+  
+}
+
+.dev-end-container .dev-end-box .dev-end-head-container .dev-end-head-2
+{
+  font-size: 3.475vw;
+  font-weight: 700;
+  
+}
+
+
+
+.dev-end-container .dev-description
+{
+    height: 6.042vw;
+    font-size: 2.354vw;
+   
+}
+
+
+
+/****waitlist page****/
+.back-button
+{
+  height: 3.927vw;
+   width: 20.354vw;
+   
+}
+.join-waitlist-box-container
+{
+  margin-top: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.join-waitlist-box-container .join-waitlist-box
+{
+  width: 55.99vw;
+  height: 55.865vw;
+  background-color: white;
+  border-radius: 20px;
+   box-shadow:
+    0 0 10px rgba(0, 0, 0, 0.05),
+    0 0 20px rgba(0, 0, 0, 0.04),
+    0 0 30px rgba(0, 0, 0, 0.03),
+    0 0 40px rgba(0, 0, 0, 0.02);
+
+}
+
+
+
+
+.join-waitlist-box-container .join-waitlist-box .mail-logo-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.646vw;
+}
+
+.join-waitlist-box-container .join-waitlist-box .mail-logo-container .mail-logo
+{
+  height: 10.104vw;
+  width: 10.26vw;
+  background: url(Gmail\ logo.png);
+  background-size: cover;
+}
+
+.join-waitlist-box-container .join-waitlist-box .JTWL-text
+{
+  font-weight: 700;
+  font-style: bold;
+  font-size: 5.708vw;
+  text-align: center;
+  margin-top: 0.781vw;
+}
+.join-waitlist-box-container .join-waitlist-box .infotext-cont
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-waitlist-box-container .join-waitlist-box .infotext
+{
+  font-weight: 500;
+  font-size: 3.146vw;
+  color: #222233B3;
+  text-align: center;
+  margin-top: 0.781vw;
+  width: 40.865vw;
+
+}
+
+.join-waitlist-box-container .join-waitlist-box .email-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-top: 5.042vw;
+}
+.join-waitlist-box-container .join-waitlist-box .button-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join-waitlist-box-container .join-waitlist-box .email-input
+{
+  width: 22.76vw;
+  height: 3.854vw;
+  font-size: 1.25vw;
+  padding-left: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.join-waitlist-box-container .join-waitlist-box .join-waitlist-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-top: 2.042vw;
+}
+
+.join-waitlist-box-container .join-waitlist-box .join-waitlist-container .join-waitlist
+{
+  height:3.229vw ;
+  width:23.438vw ;
+  border-radius: 20px;
+background: linear-gradient(to right, #8133FF,  #48B1F8);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+    cursor: pointer;
+
+}
+
+.join-waitlist-box-container .join-waitlist-box .join-waitlist-container .join-waitlist .join-waitlist-text
+{
+  margin-top: 0.625vw;
+  font-weight: 800;
+  color: white;
+  font-size: 1.354vw;
+}
 }

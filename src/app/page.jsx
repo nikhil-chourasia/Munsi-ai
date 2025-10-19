@@ -370,6 +370,39 @@ export default function Home() {
     </div>
 
     </div> 
+
+
+
+<div className="footer-box">
+    <div className="footer">
+      <div className="sub-footer-container">
+        <div className="small-desc-1">
+          <div className="footer-logo"></div>
+          <div className="footer-info">Business Analytics simplified for small businesses using AI. Work smarter, track better, grow faster.</div>
+        </div>
+        <div className="quick-links">
+          <div className="quick-link-text">Quick Links</div>
+          <div className="footer-about">About</div>
+          <div className="footer-features">Features</div>
+          <div className="footer-technology">Technology</div>
+          <div className="Members">Members</div>
+        </div>
+        <div className="get-in-touch">
+          <div className="Get-in-Touch">Get in Touch</div>
+          <div className="Narula-Institute-of-Technology">Narula Institute of Technology</div>
+          <div className="footer-contact">contact@munsi-ai</div>
+          <div className="join-waitlist">Join Waitlist</div>
+        </div>
+      </div>
+
+      <div className="border-line"></div>
+      <div className="end-line">
+        <div className="copyright">Munsi AI. All rights reserved. Built by Team Nano Bananas for Hackspire25</div>
+        <div className="privacy-policy">Privacy Policy </div>
+        <div className="TOS">Terms of Service</div>
+      </div>
+    </div>
+</div>
    </>
   );
 }
